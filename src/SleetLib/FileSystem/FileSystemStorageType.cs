@@ -1,4 +1,4 @@
-﻿namespace Sleet
+namespace Sleet
 {
     public enum FileSystemStorageType
     {
@@ -6,5 +6,6 @@
         Local,
         Azure,
         AmazonS3,
+        FTP,
     }
 }
